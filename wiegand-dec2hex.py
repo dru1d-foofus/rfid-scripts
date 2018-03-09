@@ -56,9 +56,6 @@ while True:
 ####Odd Parity Check
 	CARD_PAR_OK = (bitCount(CARD) + CARD_PAR) % 2 ==1
 
-
-
-
 ###Print Statements###	
 	if FAC_PAR_OK and CARD_PAR_OK:
 		print("Both parity bits OK. Success!" + "\n")
